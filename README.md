@@ -46,3 +46,25 @@ Silahkan laporkan dan commit dengan judul Jawaban Soal Praktikum 4
 
 Hasil:
 ![Praktikum 4](report-assets/praktikum-4.png)
+
+# Praktikum 5
+
+Hasil Awal (Jawaban Salah):
+![Praktikum 5 Awal](report-assets/praktikum-5-1.png)
+
+Hasil Kedua (Jawaban Benar):
+![Praktikum 5 Benar](report-assets/praktikum-5-2.png)
+
+Hasil Form_2:
+![Praktikum 5 Form 2](report-assets/praktikum-5-3.png)
+
+### Soal
+1. Apa perbedaan dari fungsi Form_2 yang pertama dengan yang kedua?
+2. Kenapa perlu menghapus state fullName? Apa keuntungannya?
+
+Silahkan laporkan dan commit dengan judul Jawaban Soal Praktikum 5
+
+### Jawaban
+1. Pada Form_2 tidak ada perbedaan fungsi, karena sama-sama menyambungkan string dari nama depan dan nama belakang, hanya saja pada yang kedua digabungkan dalam sebuah konstanta langsung tanpa menggunakan state.
+
+2. Hal tersebut diperlukan karena dapat meminimalisir adanya bug pada aplikasi jika terlalu banyak menggunakan state untuk menyimpan sebuah nilai, karena jika nilai tersebut hanya digunakan untuk menampilkan akan lebih baik jika menggunakan konstanta langsung tanpa menggunakan state.

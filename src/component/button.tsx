@@ -1,4 +1,5 @@
 export default function Tombol_1() {
+    // menambahkan fungsi untuk menangani klik tombol
     function handleClick() {
         alert("Tombol telah ditekan!!!")
     }
@@ -9,13 +10,21 @@ export default function Tombol_1() {
         <button
             className="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded"
             onClick={handleClick}
-            onMouseOver={handleMouseOver}
+            // onMouseOver={handleMouseOver}
             onMouseLeave={() => {
                 alert("Loh, Kok sudah pergi!!!")
             }
             }
         >
             Ini Tombol
+        </button>
+    )
+}
+
+export function Tombol_2({ isiPesan, namaTombol }: { isiPesan: String, namaTombol: String }) {
+    return (
+        <button className="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded" onClick={() => alert(isiPesan)}>
+            {namaTombol}
         </button>
     )
 }

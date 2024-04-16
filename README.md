@@ -19,3 +19,9 @@ Hasil:
 ![Praktikum 2](report-assets/praktikum-2.png)
 
 Hal tersebut dapat terjadi karena atribut dari komponen Tombol_2, akan dikirimkan melalui props ke komponen Tombol_2, sehingga isi pesan dan nama dari tombol tersebut akan berubah sesuai dengan nilai props yang diterima. Praktek ini akan sangat berguna ketika membuat sebuah komponen dengan style sama namun konten yang berbeda.
+
+# Praktikum 3
+
+Hasil:
+![Praktikum 3](report-assets/praktikum-3-1.png)
+![Praktikum 3](report-assets/praktikum-3-2.png)

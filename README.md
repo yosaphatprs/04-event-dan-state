@@ -25,3 +25,24 @@ Hal tersebut dapat terjadi karena atribut dari komponen Tombol_2, akan dikirimka
 Hasil:
 ![Praktikum 3](report-assets/praktikum-3-1.png)
 ![Praktikum 3](report-assets/praktikum-3-2.png)
+
+# Praktikum 4
+
+### Soal
+
+1. Jika kita menekan tombol "Artikel Selanjutnya" sebanyak 5x (atau melebihi halaman total artikel), apa yang akan terjadi?
+2. Modifikasilah gallery.tsx agar bisa meng-handle permasalahan tersebut.
+3. Tambahkan tombol "Artikel Sebelumnya", untuk menampilkan artikel secara mundur.
+
+Silahkan laporkan dan commit dengan judul Jawaban Soal Praktikum 4
+
+### Jawaban
+
+1. Maka property name pada objek sculpture tidak dapat diakses/ditemukan, karena hanya terdapat 5 data di dalam objek tersebut. Sehingga akan muncul error `TypeError: Cannot read properties of undefined (reading 'name')`.
+2. Saya mengubah kode pada gallery.tsx terutama pada handleClick menjadi seperti berikut:
+![Praktikum 4 Perbaikan](report-assets/praktikum-4-perbaikan.png)
+3. Saya mengubah kode pada gallery.tsx dengan menambahkan handleBefore dan buttonnya menjadi seperti berikut:
+![Praktikum 4 Perbaikan 2](report-assets/praktikum-4-perbaikan-2.png)
+
+Hasil:
+![Praktikum 4](report-assets/praktikum-4.png)

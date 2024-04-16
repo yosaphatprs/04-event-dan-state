@@ -68,3 +68,26 @@ Silahkan laporkan dan commit dengan judul Jawaban Soal Praktikum 5
 1. Pada Form_2 tidak ada perbedaan fungsi, karena sama-sama menyambungkan string dari nama depan dan nama belakang, hanya saja pada yang kedua digabungkan dalam sebuah konstanta langsung tanpa menggunakan state.
 
 2. Hal tersebut diperlukan karena dapat meminimalisir adanya bug pada aplikasi jika terlalu banyak menggunakan state untuk menyimpan sebuah nilai, karena jika nilai tersebut hanya digunakan untuk menampilkan akan lebih baik jika menggunakan konstanta langsung tanpa menggunakan state.
+
+# Praktikum 6
+
+Hasil (About):
+![Praktikum 6 About](report-assets/praktikum-6.png)
+
+Hasil (Etymology):
+![Praktikum 6 Etymology](report-assets/praktikum-6-2.png)
+
+### Soal
+1. Apa tujuan dari penulisan ini key={to.email} pada < Chat key={to.email} contact={to} / > ?
+
+2. Apa fungsi dari props key tersebut?
+
+Silakan laporkan dan commit dengan judul Jawaban Soal Praktikum 6
+
+### Jawaban
+1. Tujuan dari penulisan key={to.email} pada < Chat key={to.email} contact={to} / > adalah untuk memberikan key pada komponen Chat agar React dapat membedakan komponen tersebut dan membuat komponen baru yang berbeda dari masing-masing key-nya.
+
+2. Fungsi dari props key tersebut adalah untuk memberikan key pada komponen agar React dapat membedakan antara satu komponen dengan komponen lainnya.
+
+Hasil Kedua:
+![Praktikum 6 Etymology 2](report-assets/praktikum-6-3.png)
